@@ -4,7 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Index from "./views/indexPage";
 import NavBar from "./components/navBar/navbar";
 import AboutPage from "./views/aboutPage/about";
-
+import TodoPage from "./views/todoPage/todo";
 
 const router = createBrowserRouter([
   {
@@ -13,12 +13,12 @@ const router = createBrowserRouter([
   },
   {
     path: "/about",
-    element: <AboutPage/>,
+    element: <AboutPage />,
   },
   {
     path: "/todo",
-    element: <div>to do page</div>,
-  },
+    element: <TodoPage/>,
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

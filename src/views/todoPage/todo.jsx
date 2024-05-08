@@ -1,4 +1,4 @@
-import "./index.css";
+import "./todo.css";
 import Button from "../../components/button/button";
 
 const todoPage = () => {

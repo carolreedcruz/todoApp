@@ -11,7 +11,12 @@ const HomePage = () => {
         </h1>
         <div className="explore">
           <p>
-            <Button backgroundColor={"black"} text="To Do List" fontWeight={"bold"} /> Be an <strong>organiser.</strong>
+            <Button
+              backgroundColor={"black"}
+              text="To Do List"
+              fontWeight={"bold"}
+            />{" "}
+            Be an <strong>organiser.</strong>
           </p>
         </div>
       </div>
