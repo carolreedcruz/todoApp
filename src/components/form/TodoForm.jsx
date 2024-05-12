@@ -23,14 +23,16 @@ export default function TodoForm({ addTodo }) {
         <TextField
           id="outlined-basic"
           label="Add Task"
+          placeholder="Clean up room"
           variant="outlined"
           onChange={handleChange}
           value={text}
+          required
           InputProps={{
             endAdornment: (
               <InputAdornment position="end">
                 <IconButton aria-label="create todo" edge="end" type="submit">
-                  <AddIcon />
+                  <AddIcon className="addIcon" />
                 </IconButton>
               </InputAdornment>
             ),

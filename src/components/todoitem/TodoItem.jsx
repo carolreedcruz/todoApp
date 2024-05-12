@@ -13,7 +13,7 @@ export default function TodoItem({ todo, removeTodo, toggle }) {
     <ListItem
       secondaryAction={
         <IconButton edge="end" aria-label="comments" onClick={removeTodo}>
-          <DeleteIcon />
+          <DeleteIcon className="deleteIcon" />
         </IconButton>
       }
       disablePadding

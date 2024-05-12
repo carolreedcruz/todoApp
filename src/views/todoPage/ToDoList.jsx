@@ -53,20 +53,28 @@ export default function TodoList() {
         justifyContent: "center",
         flexDirection: "column",
         alignItems: "center",
-        m: 5,
+        m: 6,
       }}
     >
-      <Typography variant="h2" component="h1" sx={{ flexGrow: 1 }}>
+      <Typography
+        variant="h2"
+        component="h1"
+        sx={{
+          flexGrow: 1,
+          m: 2,
+        }}
+      >
         To Do List
       </Typography>
 
       <List
         sx={{
           width: "100%",
-          maxWidth: 360,
+          maxWidth: 340,
           bgcolor: "background.paper",
           borderRadius: 4,
           boxShadow: 3,
+          padding: 3,
         }}
       >
         {todos.map((todo) => (
