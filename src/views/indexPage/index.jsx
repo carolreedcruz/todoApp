@@ -15,6 +15,7 @@ const HomePage = () => {
               backgroundColor={"black"}
               text="To Do List"
               fontWeight={"bold"}
+              onClick={() => (window.location.href = "/todo")}
             />{" "}
             Be an <strong>organiser.</strong>
           </p>

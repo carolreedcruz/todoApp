@@ -18,6 +18,7 @@ const AboutPage = () => {
               backgroundColor={"black"}
               text="To Do List"
               fontWeight={"bold"}
+              onClick={() => (window.location.href = "/todo")}
             />{" "}
           </p>
         </div>
